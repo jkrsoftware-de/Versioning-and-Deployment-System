@@ -16,19 +16,38 @@ If you need any help or just want to talk to me, have a look here: [contact-info
 
 ---
 
-## 📕 About all of my Software-Products.
-Just read the following Paragraphs. 😊
+## 💬 Informations about the „Versioning and Deployment-System“
+
+"*Jerry, what is the „Versioning- and Deployment-System“?* someone — may — would ask me.
+
+The Versioning- and Deployment-System is a Bundle of Bash-Scripts, helping me to introduce a simple Approach of Versioning and Deployment to
+my Projects via GitLab-CI.
+
+I have a lots of Projects, where I need such an Use-Case of version & deploy Software-Projects. It's easy to expandable / adjustable for me.
+
+Currently it's not optimized for public Usage.<br />
+That doesn't mean, you can't use it right away — but this Bundle isn't optimized as a Public-Release yet.
+
+You can ask me, if you need help. 😊<br />
+You'll find my Contact-Informations here: [contact-informations.md](contact-informations.md).
+
+## 📕 About all of my public-accessible (Open-Source) Software-Products.
+
+Read the following Paragraphs, if you want. 😊
 
 ---
 
 ### 📃 I use the „Ports & Adapters“- / „Hexagonal“-Software-Design.
+
 For every newly-created Software, I use the **„Ports & Adapters“-Design**.
 
-For better understanding — what the **„Ports & Adapters“-Design** is — have a look here: [Wikipedia (EN) · Hexagonal Architecture](https://en.wikipedia.org/wiki/Hexagonal_architecture_(software))
+For better understanding — what the **„Ports & Adapters“-Design** is — have a look
+here: [Wikipedia (EN) · Hexagonal Architecture](https://en.wikipedia.org/wiki/Hexagonal_architecture_(software))
 
 ---
 
 ### 📃 The underlying Software-License.
+
 This Software is free forever.
 
 There is nothing to pay and nothing to fulfill, to use/to edit/to (re-)publish my written Software-Code.
@@ -37,18 +56,12 @@ There is nothing to pay and nothing to fulfill, to use/to edit/to (re-)publish m
 
 ---
 
-## 💬 Informations about the „Versioning and Deployment-System“
+### 📃 Lifetime-Maintain-Promise.
 
-"*Jerry, what is the „Versioning- and Deployment-System“?* someone — may — would ask me.
+**I promise, to keep every Software-Project maintained in my Lifetime.**<br />
+Every Software-Project, I release, will always be maintained, unless I'll communicate something else.
 
-The Versioning- and Deployment-System is a Bundle of Bash-Scripts, helping me to introduce a simple Approach of
-Versioning and Deployment to my Projects via GitLab-CI.
+Currently, each Software-Project is also used by myself.<br />
+So I create/maintain the Software for me and for you. 😊
 
-I have a lots of Projects, where I need such an Use-Case of version & deploy Software-Projects.
-It's easy to expandable / adjustable for me.
-
-Currently it's not optimized for public Usage.<br />
-That doesn't mean, you can't use it right away — but this Bundle isn't optimized as a Public-Release yet.
-
-You can ask me, if you need help. 😊<br />
-You'll find my Contact-Informations here: [contact-informations.md](../contact-informations.md).
+---
