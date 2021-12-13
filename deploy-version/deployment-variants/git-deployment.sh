@@ -22,7 +22,7 @@ if [[ -z ${BRANCH_TO_DEPLOY} ]]; then
   exit 1
 fi
 
-"${PWD}/versioning-and-deployment-system/common-subscripts/git/setup-repository-config.sh"
+"${BASH_SOURCE%/*}/../../common-subscripts/git/setup-repository-config.sh"
 git remote rm git-remote-location
 git remote add git-remote-location "${GIT_URL_WITH_CREDENTIALS}"
 

@@ -20,9 +20,9 @@ if [[ -z ${DEPLOYMENT_VARIANT} ]]; then
 fi
 
 if [ "${DEPLOYMENT_VARIANT}" == "MAVEN_DEPLOYMENT" ]; then
-  "${PWD}/versioning-and-deployment-system/deploy-version/deployment-variants/maven-deployment.sh" "${2}"
+  "${BASH_SOURCE%/*}/deployment-variants/maven-deployment.sh" "${2}"
 elif [ "${DEPLOYMENT_VARIANT}" == "GIT_DEPLOYMENT" ]; then
-  "${PWD}/versioning-and-deployment-system/deploy-version/deployment-variants/git-deployment.sh" "${2}" "${3}"
+  "${BASH_SOURCE%/*}/deployment-variants/git-deployment.sh" "${2}" "${3}"
 elif [ "${DEPLOYMENT_VARIANT}" == "SSH_DEPLOYMENT" ]; then
   echo "${LOG_PREFIX}This Deployment-Variant is not implemented yet."
 fi

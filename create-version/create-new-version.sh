@@ -27,12 +27,12 @@ echo "${LOG_PREFIX}Start Creating new Version (\"${NEW_VERSION}\") on new Branch
 
 git fetch origin
 
-"${PWD}/versioning-and-deployment-system/common-subscripts/git/setup-repository-config.sh" "${GIT_REPOSITORY_URL_WITH_CREDENTIALS}"
+"${BASH_SOURCE%/*}/../common-subscripts/git/setup-repository-config.sh" "${GIT_REPOSITORY_URL_WITH_CREDENTIALS}"
 
-"${PWD}/versioning-and-deployment-system/create-version/subscripts/create-new-version/set-new-maven-version.sh" "${NEW_VERSION}"
+"${BASH_SOURCE%/*}/subscripts/create-new-version/set-new-maven-version.sh" "${NEW_VERSION}"
 
-"${PWD}/versioning-and-deployment-system/create-version/subscripts/git-tools/commit-current-workspace-and-tag-commit.sh" "${COMMIT_MESSAGE_FOR_NEW_VERSION}" "${NEW_VERSION}"
+"${BASH_SOURCE%/*}/subscripts/git-tools/commit-current-workspace-and-tag-commit.sh" "${COMMIT_MESSAGE_FOR_NEW_VERSION}" "${NEW_VERSION}"
 
-"${PWD}/versioning-and-deployment-system/create-version/subscripts/git-tools/push-current-workspace.sh" "${BRANCH_FOR_NEW_VERSION}"
+"${BASH_SOURCE%/*}/subscripts/git-tools/push-current-workspace.sh" "${BRANCH_FOR_NEW_VERSION}"
 
 echo "${LOG_PREFIX}Created new Version of Software-Project on Branch \"${BRANCH_FOR_NEW_VERSION}\": \"${NEW_VERSION}\"."
